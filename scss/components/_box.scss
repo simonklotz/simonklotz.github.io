@@ -1,0 +1,33 @@
+@use "../abstracts/variables" as *;
+
+.box {
+  position: relative;
+  padding: $spacing-2;
+
+  background-color: $color-surface;
+  border-radius: $radius-xl;
+  border: 1px solid $color-border;
+}
+
+.main-box {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-4;
+
+  top: 15px;
+  left: 15px;
+  width: 400px;
+  height: 450px;
+}
+
+.menu-box {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-4;
+
+  bottom: 15px;
+  right: 15px;
+  width: 50px;
+  height: 150px;
+}
