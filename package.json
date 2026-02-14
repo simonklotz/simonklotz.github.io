@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My personal portfolio website in plain HTML, SCSS/CSS & JavaScript",
+  "main": "js/main.js",
+  "type": "module",
+  "scripts": {
+    "build:css": "sass scss/main.scss css/main.css --style=expanded",
+    "build:css:min": "sass scss/main.scss css/main.min.css --style=compressed",
+    "watch:css": "sass scss/main.scss css/main.css --watch",
+    "build": "npm run build:css && npm run build:css:min",
+    "start": "npm run watch:css"
+  },
+  "keywords": [
+    "portfolio",
+    "scss",
+    "vanilla-js",
+    "responsive"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.8.1",
+    "sass": "^1.97.3"
+  }
+}

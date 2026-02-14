@@ -1,6 +1,13 @@
 # IDE
 .idea
 
+# Node
+/node_modules
+npm-debug.log
+
+# Miscellaneous
+.sass-cache/
+
 # System Files
 .DS_Store
 Thumbs.db
